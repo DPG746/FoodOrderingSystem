@@ -1,0 +1,30 @@
+FoodOrderingSystem
+
+Java Resources
+│
+└── src/main/java
+    │
+    └── com.cdac
+        │
+        ├── controller
+        │     LoginServlet.java
+        │     AddToCartServlet.java
+        │     PlaceOrderServlet.java
+        │     LogoutServlet.java
+        │
+        ├── dao
+        │     UserDAO.java
+        │     OrderDAO.java
+        │
+        ├── model
+        │     CartItem.java
+        │
+        └── util
+              DBUtil.java
+
+src/main/webapp
+│
+├── login.html
+├── menu.jsp
+├── cart.jsp
+└── success.jsp
