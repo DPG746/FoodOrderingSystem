@@ -1,0 +1,53 @@
+create database fooddb;
+
+use fooddb;
+
+
+
+
+
+
+
+
+create table users
+(
+ username varchar(30) primary key,
+ password varchar(30)
+);
+
+
+
+
+insert into users values
+('admin','admin123'),
+('user1','user123');
+
+
+
+
+create table food_items
+(
+ food_id int primary key auto_increment,
+ food_name varchar(50),
+ price double
+);
+
+
+
+insert into food_items(food_name,price)
+values
+('Pizza',250),
+('Burger',120),
+('Sandwich',100);
+
+
+
+
+create table orders
+(
+ order_id int primary key auto_increment,
+ username varchar(30),
+ food_name varchar(50),
+ quantity int,
+ total_amount double
+);
