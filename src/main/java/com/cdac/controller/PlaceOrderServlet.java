@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
-import com.cdac.dao.OrderDAO;
-import com.cdac.model.CartItem;
+import main.java.dao.OrderDAO;
+import main.java.model.CartItem;
 
 @WebServlet("/placeorder")
 public class PlaceOrderServlet
