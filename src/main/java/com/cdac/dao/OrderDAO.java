@@ -1,10 +1,12 @@
-package com.cdac.dao;
+//package com.cdac.dao;
+
+package main.java.dao;
 
 import java.sql.*;
 import java.util.ArrayList;
 
-import com.cdac.model.CartItem;
-import com.cdac.util.DBUtil;
+import main.java.model.CartItem;
+import main.java.util.DBUtil;
 
 public class OrderDAO {
 
