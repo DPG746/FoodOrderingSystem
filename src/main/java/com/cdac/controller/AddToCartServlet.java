@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
-import com.cdac.model.CartItem;
+import main.java.model.CartItem;
 
 @WebServlet("/addcart")
 public class AddToCartServlet
