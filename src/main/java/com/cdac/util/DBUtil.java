@@ -1,4 +1,4 @@
-package com.cdac.util;
+package main.java.util;
 
 import java.sql.*;
 
