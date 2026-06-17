@@ -1,5 +1,5 @@
 <%@ page import="java.util.*" %>
-<%@ page import="com.cdac.model.CartItem" %>
+<%@ page import="main.java.model.CartItem" %>
 
 <%
 ArrayList<CartItem> cart =
