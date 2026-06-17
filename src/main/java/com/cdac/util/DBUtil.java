@@ -11,8 +11,8 @@ public class DBUtil {
         "com.mysql.cj.jdbc.Driver");
 
         return DriverManager.getConnection(
-        "jdbc:mysql://localhost:3306/fooddb",
+        "jdbc:mysql://localhost:3306/ordering",
         "root",
-        "9450390189");
+        "cdacacts");
     }
 }
