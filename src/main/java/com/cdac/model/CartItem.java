@@ -1,4 +1,4 @@
-package com.cdac.model;
+package main.java.model;
 
 public class CartItem {
 
