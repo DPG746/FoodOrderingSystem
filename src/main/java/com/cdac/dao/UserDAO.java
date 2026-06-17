@@ -1,8 +1,10 @@
-package com.cdac.dao;
+//package com.cdac.dao;
+
+package main.java.dao;
 
 import java.sql.*;
 
-import com.cdac.util.DBUtil;
+import main.java.util.DBUtil;
 
 public class UserDAO {
 
